@@ -1,0 +1,33 @@
+{
+  "name": "Screenshots",
+  "version": "0.0.1",
+  "summary": "A short description of Screenshots.",
+  "homepage": "https://github.com/guxiangye",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guxiangyee": "guxiangyee@163.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/guxiangye/Screenshots.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "Classes/Screenshots.h",
+  "subspecs": [
+    {
+      "name": "GCDWebServer",
+      "source_files": "Classes/GCDWebServer/**/*.{h,m}",
+      "public_header_files": "Classes/GCDWebServer/**/*.h"
+    },
+    {
+      "name": "VTAntiScreenCapture",
+      "source_files": "Classes/VTAntiScreenCapture/**/*.{h,m}",
+      "public_header_files": "Classes/VTAntiScreenCapture/**/*.h"
+    }
+  ]
+}

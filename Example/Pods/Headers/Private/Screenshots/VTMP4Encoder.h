@@ -1,0 +1,1 @@
+../../../../../Screenshots/Classes/VTAntiScreenCapture/Classes/VTMP4Encoder.h

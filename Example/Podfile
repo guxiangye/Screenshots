@@ -1,0 +1,13 @@
+# source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+#use_frameworks!
+
+def shared_pods
+    
+    pod 'Screenshots', :path => '../Screenshots', :tag => '0.0.1'
+end
+
+target :'Screenshots' do
+    shared_pods
+end

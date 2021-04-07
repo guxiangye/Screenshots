@@ -1,0 +1,21 @@
+PODS:
+  - Screenshots (0.0.1):
+    - Screenshots/GCDWebServer (= 0.0.1)
+    - Screenshots/VTAntiScreenCapture (= 0.0.1)
+  - Screenshots/GCDWebServer (0.0.1)
+  - Screenshots/VTAntiScreenCapture (0.0.1)
+
+DEPENDENCIES:
+  - Screenshots (from `../Screenshots`)
+
+EXTERNAL SOURCES:
+  Screenshots:
+    :path: "../Screenshots"
+    :tag: 0.0.1
+
+SPEC CHECKSUMS:
+  Screenshots: 4a11455727508f82222b6d41aff22e20e6450e0d
+
+PODFILE CHECKSUM: 86bd2765c82ff319a17bb1ac28fafd4d9cc3dc17
+
+COCOAPODS: 1.10.1
